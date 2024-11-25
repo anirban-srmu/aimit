@@ -7,16 +7,18 @@ import Counter from './Counter';
 import FunctionCounter from './FunctionCounter';
 import LoginStatus from './LoginStatus';
 import ToggleMessage from './ToggleMessage';
+import Profile from './Profile';
 
 function App(props){
   return (
     <div>
-      <Greeting />
+      {/* <Greeting />
       <ClassComponent message ="This is a class component"/>
-      <WelcomeMessage/>
-      <Counter/>
+      <WelcomeMessage/> */}
+      {/* <Counter/> */}
       <FunctionCounter/>
-      <LoginStatus isLoogedIn={true}/>
+      {/* <LoginStatus isLoogedIn={true}/> */}
+      <Profile user = {{name:'Anirban'}}/>
       <ToggleMessage/>
       <Footer/>
     </div>
