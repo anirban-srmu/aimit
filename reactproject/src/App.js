@@ -6,6 +6,7 @@ import ClassComponent from './ClassComponent';
 import Counter from './Counter';
 import FunctionCounter from './FunctionCounter';
 import LoginStatus from './LoginStatus';
+import ToggleMessage from './ToggleMessage';
 
 function App(props){
   return (
@@ -16,6 +17,7 @@ function App(props){
       <Counter/>
       <FunctionCounter/>
       <LoginStatus isLoogedIn={true}/>
+      <ToggleMessage/>
       <Footer/>
     </div>
   ); 
