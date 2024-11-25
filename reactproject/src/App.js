@@ -5,6 +5,7 @@ import Footer from './Footer';
 import ClassComponent from './ClassComponent';
 import Counter from './Counter';
 import FunctionCounter from './FunctionCounter';
+import LoginStatus from './LoginStatus';
 
 function App(props){
   return (
@@ -14,6 +15,7 @@ function App(props){
       <WelcomeMessage/>
       <Counter/>
       <FunctionCounter/>
+      <LoginStatus isLoogedIn={true}/>
       <Footer/>
     </div>
   ); 
