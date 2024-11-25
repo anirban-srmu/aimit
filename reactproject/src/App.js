@@ -4,6 +4,7 @@ import WelcomeMessage from './WelcomeMessage';
 import Footer from './Footer';
 import ClassComponent from './ClassComponent';
 import Counter from './Counter';
+import FunctionCounter from './FunctionCounter';
 
 function App(props){
   return (
@@ -12,6 +13,7 @@ function App(props){
       <ClassComponent message ="This is a class component"/>
       <WelcomeMessage/>
       <Counter/>
+      <FunctionCounter/>
       <Footer/>
     </div>
   ); 
