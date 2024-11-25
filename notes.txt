@@ -1,0 +1,32 @@
+https://github.com/anirban-srmu/aimit.git
+
+
+node -v
+
+npx create-react-app appname
+
+Key concepts
+-------------
+Component based Architecture
+Virtual DOM
+JSX(Java Script XML= JS +HTML)
+One-way Data Binding
+Performance
+Components
+Single Page Applications
+
+installation
+------------
+1. create-react-app
+2. webpack and babel
+3. Vite build tool
+
+cd reactproject
+npm start
+
+
+
+
+
+
+
