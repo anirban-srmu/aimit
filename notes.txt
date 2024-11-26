@@ -26,6 +26,8 @@ npm start
 
 https://jsonplaceholder.typicode.com/users
 
+Async and await
+
 
 
 
