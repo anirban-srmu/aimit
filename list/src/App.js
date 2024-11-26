@@ -1,10 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import Tasklist from './TaskList';
+import TaskManager from "./TaskManager";
 
 function App() {
   return (
-    <Tasklist/>
+    <TaskManager/>
   );
 }
 
