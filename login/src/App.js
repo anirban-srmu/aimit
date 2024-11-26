@@ -1,9 +1,13 @@
 import React from 'react';
 import LoginForm from './LoginForm';
+import FormWithValidation from './FormWithValidation';
 
 function App() {
   return (
-    <LoginForm/>
+    <div>
+      <LoginForm/>
+      <FormWithValidation/>
+    </div>  
   );
 }
 
