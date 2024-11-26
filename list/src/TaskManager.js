@@ -2,6 +2,10 @@ import React from "react";
 
 function TaskManager(){
     const [tasks, setTask] = React.useState(['Lear React','Build React']);
+    // const [items, setTask] = React.useState([
+    //     {name: 'Milk',bought:false},
+    //     {name: 'Bread',bought:false}
+    // ]);
     
     function addTask(){
         const newTask = prompt('Enter task:');
