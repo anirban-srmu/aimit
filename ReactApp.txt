@@ -1,4 +1,22 @@
-**Student Management System**
---------------------------
+Student Management System
+===========================
 
-*Overview
+Overview
+---------
+1. A Home page dispalying an introduction
+2. A Student List Page showing all students with options to add or view details.
+3. A Student details Page for viewing specific stduent details.
+4. A Form Page to add a new stduent.
+5. Navigation using React Router.
+
+Folder
+------
+src/
+|--components/
+|   |-- Navbar.js
+|   |-- Home.js
+|   |-- StudentList.js
+|   |-- AddStudent.js
+|   |-- StudentDetails.js
+|--App.js
+|--index.js
