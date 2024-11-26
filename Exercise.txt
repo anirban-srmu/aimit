@@ -12,3 +12,5 @@ a. All fields are required.
 b. Email must have a valid format.
 c  Message should be at least 10 char long.
 
+5. Add contact page with website and have a name email and address at input form.
+
