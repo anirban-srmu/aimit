@@ -6,11 +6,16 @@ function TaskManager(){
     function addTask(){
         setTask([...tasks,'New Task']);
     }
+    function removeTask(indexToRemove){
+        setTask(tasks.filter((_,index)=> index !== indexToRemove));
+    }
     return(
         <div>
             <ul>
                 {tasks.map((task,index)=>(
-                    <li key = {index}>{task}</li>
+                    <li key = {index}>
+                        {task} <button onClick={()=>removeTask(index)}>Remove</button>
+                        </li>
                 ))}
             </ul>
             <button onClick={addTask}>Add Task</button>
