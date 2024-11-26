@@ -5,6 +5,10 @@
 a. Add new items to the list.
 b. Remove items from the list.
 c. Display the total number of items in the list.
-
 add a feature to marl items as "bought' and filter the list to show only unbought items.
+
+4. Enhance the contact form to validate the following
+a. All fields are required.
+b. Email must have a valid format.
+c  Message should be at least 10 char long.
 
