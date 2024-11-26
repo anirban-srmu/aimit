@@ -14,3 +14,8 @@ c  Message should be at least 10 char long.
 
 5. Add contact page with website and have a name email and address at input form.
 
+6. In dynamic routing app add a "Back" button on details page that navigates to the item list.
+
+
+
+
