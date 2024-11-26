@@ -4,14 +4,16 @@ function TaskManager(){
     const [tasks, setTask] = React.useState(['Lear React','Build React']);
     
     function addTask(){
-        setTask([...tasks,'New Task']);
+        const newTask = prompt('Enter task:');
+        setTask([...tasks,[newTask]]);
     }
     function removeTask(indexToRemove){
         setTask(tasks.filter((_,index)=> index !== indexToRemove));
     }
     function updateTask(indexToUpdate){
         const newTasks = [...tasks];
-        newTasks[indexToUpdate] = 'Updated Task';
+        const upTask = prompt('Enter updated Task:')
+        newTasks[indexToUpdate] = upTask;
         setTask(newTasks);
     }
     return(

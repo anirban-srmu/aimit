@@ -1,3 +1,10 @@
 1. Create a Welcome component that accepxt nam and age props and displays the.
 2. Create a component that fetches user data from an API and displays it.
 
+3. Create a ShoppingList component that allows the user to:
+a. Add new items to the list.
+b. Remove items from the list.
+c. Display the total number of items in the list.
+
+add a feature to marl items as "bought' and filter the list to show only unbought items.
+
